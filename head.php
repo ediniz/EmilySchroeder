@@ -1,1 +1,6 @@
-<h1>This is the header.</h1>
+<div class="container">
+	<div>
+		<h1>Logo here</h1>
+	</div>
+	<div>navigation here</div>
+</div>
