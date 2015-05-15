@@ -25,7 +25,7 @@
 	height:80px;
 }
 
-/** Custom main navigation and nav-pills **/
+/** Custom main navigation and nav-pills 
 .nav {vertical-align: middle}
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -47,7 +47,7 @@
   color: #fff;
   background-color: #C8D7E3;
 }
-
+**/
 /** Custom elements **/
 a {
 	color: #98B1C4;

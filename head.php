@@ -4,7 +4,25 @@
 			<h1>Logo here</h1>
 		</div>
 		<div class="col-sm-offset-8">
-			<nav>
+			<div class="navbar">
+              <div class="navbar-inner">
+                <div class="container">
+                  <ul class="nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#">Web</a></li>
+                    <li><a href="#">Graphic</a></li>
+                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+		</div>
+	</div>
+</div>
+
+<!--<nav>
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
 					<span class="sr-only">Home</span>
 					<span class="icon-bar">Web</span>
@@ -21,11 +39,4 @@
 						<li><a class= "blog" href="/blog">Blog</a></li>
 					</ul>
 				</div>
-			</nav>
-		</div>
-	</div>
-</div>
-
-<script>
-
-</script>
+			</nav>-->
