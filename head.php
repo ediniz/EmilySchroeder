@@ -1,42 +1,28 @@
-<div class="container eighty">
-	<div class="row ">
-		<div class="col-sm-4">
-			<h1>Logo here</h1>
+<div class="navbar-wrapper">
+  <div class="container">
+	<nav class="navbar navbar-default navbar-fixed-top">
+	  <div class="container">
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="#">Logo Here</a>
 		</div>
-		<div class="col-sm-offset-8">
-			<div class="navbar">
-              <div class="navbar-inner">
-                <div class="container">
-                  <ul class="nav">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Web</a></li>
-                    <li><a href="#">Graphic</a></li>
-                    <li><a href="#">Resume</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+		<div id="navbar" class="navbar-collapse collapse">
+		  <ul class="nav navbar-nav navbar-right">
+			<li class="active"><a href="#">Home</a></li>
+			<li><a href="#">Web</a></li>
+			<li><a href="#">Graphic</a></li>
+			<li><a href="#">Resume</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Contact</a></li>
+		  </ul>
 		</div>
-	</div>
+	  </div>
+	</nav>
+  </div>
 </div>
-
-<!--<nav>
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-					<span class="sr-only">Home</span>
-					<span class="icon-bar">Web</span>
-					<span class="icon-bar">Graphic</span>
-					<span class="icon-bar">Resume</span>
-					<span class="icon-bar">Blog</span>
-				</button>
-				<div class="navbar-collapse collapse">
-					<ul class="nav nav-pills">
-						<li><a class= "" href="/">Home</a></li>
-						<li><a class= "web" href="/web.php">Web</a></li>
-						<li><a class= "graphic" href="/graphic">Graphic</a></li>
-						<li><a class= "resume" href="/">Resume</a></li>
-						<li><a class= "blog" href="/blog">Blog</a></li>
-					</ul>
-				</div>
-			</nav>-->
