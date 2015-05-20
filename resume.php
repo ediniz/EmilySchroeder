@@ -2,7 +2,7 @@
 <?php include 'header.php';?>
 <script>
 $(document).ready(function() {
-	$('#web').addClass('active');
+	$('#resume').addClass('active');
 });
 </script>
 <?php include 'footer.php';?>

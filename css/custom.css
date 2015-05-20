@@ -22,12 +22,12 @@
 
 .inline-block {display:inline-block;}
 
-/** Custom main navigation and nav-pills **/
+/** Custom main navigation **/
 .navbar-default .navbar-text {
-  color: #98B1C4;
+  color: #2E5387;
 }
 .navbar-default .navbar-nav > li > a {
-  color: #98B1C4;
+  color: #2E5387;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
@@ -39,7 +39,7 @@
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #fff;
-  background-color: #2E5387;
+  background-color: #ea7979;
   border-radius: 4px;
 }
 .navbar-default .navbar-nav > li + li {

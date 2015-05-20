@@ -2,7 +2,7 @@
 <?php include 'header.php';?>
 <script>
 $(document).ready(function() {
-	$('#web').addClass('active');
+	$('#graphic').addClass('active');
 });
 </script>
 <?php include 'footer.php';?>
