@@ -1,5 +1,5 @@
 	<footer>
-		<div class="container icy-blue">
+		<div class="container">
 			<p class="text-center">EmilySchroeder.me &copy; 2015</p>
 		</div>
 	</footer>
