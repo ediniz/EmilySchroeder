@@ -19,8 +19,9 @@
 .icy-blue {
 	color: #C8D7E3;
 }
-
-.inline-block {display:inline-block;}
+.inline-block {
+	display:inline-block;
+}
 
 /** Custom main navigation **/
 .navbar-default .navbar-text {
@@ -47,7 +48,7 @@
 }
 /** Custom elements **/
 body {
-  padding-top: 80px;
+  padding-top: 40px;
 }
 @media (max-width: 980px) {
   body {
@@ -60,7 +61,17 @@ footer {
   width: 100%;
   background-color: #2E5387;
   line-height: 40px;
-  padding-top:10px;
-  color:#fff !important;
+  padding-top: 10px;
+  color: #fff !important;
 }
-nav {padding:3px}
+nav {padding: 3px}
+
+/** Resume Styles **/
+.resumeheads {
+	font-weight: bold;
+	font-variant: small-caps;	
+}
+.resume li {
+	list-style: square;
+	padding: 2px 0 2px 0;
+}
