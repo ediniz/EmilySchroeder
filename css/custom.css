@@ -19,8 +19,8 @@
 .icy-blue {
 	color: #C8D7E3;
 }
-.inline-block {
-	display:inline-block;
+.white {
+  color:#fff;
 }
 
 /** Custom main navigation **/
@@ -46,6 +46,7 @@
 .navbar-default .navbar-nav > li + li {
   margin-left: 2px;
 }
+
 /** Custom elements **/
 body > .container {
   padding-top: 60px;
@@ -73,4 +74,16 @@ nav {padding: 3px}
 }
 .resumejobs {
   font-weight:bold;
+}
+
+/** Contact Styles **/
+.contactform {
+  max-width: 400px;
+}
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  background-color: #2E5387;
+  color: #fff;
+  text-decoration: none;
 }
