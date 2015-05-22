@@ -15,7 +15,7 @@
 			        <input type="text" id="inputSubject" class="form-control" placeholder="Subject" required></br>
 			        <label for="inputMessage" class="sr-only">Message</label>
 			        <textArea type="text" id="inputMessage" class="form-control" placeholder="Message" rows="10" required></textArea></br>
-			        <button type="submit" class="btn btn-lg medium-blue-back white">Submit!</button>
+			        <button type="submit" class="btn btn-lg medium-blue-back white">Submit</button>
 				</form>
 			</div>
 		</div>
