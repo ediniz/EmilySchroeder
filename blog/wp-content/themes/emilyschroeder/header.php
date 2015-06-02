@@ -39,8 +39,8 @@
 					<li id="web"><a href="/web">Web</a></li>
 					<li id="graphic"><a href="/graphic">Graphic</a></li>
 					<li id="resume"><a href="/resume">Resume</a></li>
-					<li id="blog" class="active"><a href="/blog">Blog</a></li>
 					<li id="contact"><a href="/contact">Contact</a></li>
+					<li id="blog" class="active"><a href="/blog">Blog</a></li>
 				  </ul>
 				</div>
 			  </div>

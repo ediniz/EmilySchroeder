@@ -22,6 +22,9 @@
 .white {
   color:#fff;
 }
+.navy {
+  color: #2E5387;
+}
 
 /** Custom main navigation **/
 .navbar-default .navbar-text {
@@ -86,4 +89,37 @@ nav {padding: 3px}
   background-color: #2E5387;
   color: #fff;
   text-decoration: none;
+}
+
+/** Blog Styles **/
+
+#sidebar ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#sidebar ul li {
+  padding: 10px 0 10px 10px;
+}
+
+#sidebar ul li:nth-child(odd) {
+  background-color: #F8F8F2;
+}
+
+#sidebar h2 {
+  font-variant: small-caps;
+}
+
+#sidebar hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 2px dotted #eee;
+}
+#sidebar .searchbar {
+  border: 1px solid #eee;
+  padding: 5px;
+  font-weight: normal;
+  width:100%;
 }
