@@ -6,10 +6,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" href="graphics/favicon.ico">
 		<title>EmilySchroeder.me - Welcome</title>
-		<!-- JS/Bootstrap/Paralax -->
-		<script src="js/jquery-2.1.4.min.js"></script>
-		<script src="/js/parallax.js"></script>
-		<script src="js/bootstrap.min.js"></script>
 		<!-- CSS -->
 		<link href="css/bootstrap.min.css" rel="stylesheet">x
 		<!--<link href="css/bootstrap-responsive.css" rel="stylesheet">-->
@@ -19,3 +15,4 @@
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 	</head>
+	<body data-spy="scroll" data-target="#scrollSpy" data-offset="60">

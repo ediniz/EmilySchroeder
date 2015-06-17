@@ -1,6 +1,6 @@
 <div class="navbar-wrapper">
   <div class="container">
-	<nav class="navbar navbar-default navbar-fixed-top">
+	<nav id="scrollSpy" class="navbar navbar-default navbar-fixed-top">
 	  <div class="container">
 		<div class="navbar-header">
 		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -14,12 +14,12 @@
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
 		  <ul class="nav navbar-nav navbar-right">
-			<li id="home"><a href="/">Home</a></li>
-			<li id="web"><a href="/web">Web</a></li>
-			<li id="graphic"><a href="/graphic">Graphic</a></li>
-			<li id="resume"><a href="/resume">Resume</a></li>
-			<li id="contact"><a href="/contact">Contact</a></li>
-			<li id="blog"><a href="/blog">Blog</a></li>
+			<li><a href="#home">Home</a></li>
+			<li><a href="#web">Web</a></li>
+			<li><a href="#graphic">Graphic</a></li>
+			<li><a href="#resume">Resume</a></li>
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="/blog">Blog</a></li>
 		  </ul>
 		</div>
 	  </div>

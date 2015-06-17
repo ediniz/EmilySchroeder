@@ -1,13 +1,18 @@
-<div class="jumbotron medium-blue-back mt10">
-	<div class="container">
-		<!--<img src="/jumbotest.png"/>-->
-	</div>	
-</div>
-<div class="container">
-	<div class="row">
-		<div id="main" class="col-lg-12"></div>
-	</div>
-</div>
+	<section id="home" class="hundred orange">
+		<div class="pt60">Home</div>
+	</section>
+	<section id="web" class="hundred red">
+		<div class="pt60">Slide 2</div>
+	</section>
+	<section id="graphic" class="hundred blue">
+		<div class="pt60">Slide 3</div>
+	</section>
+	<section id="resume" class="hundred green">
+		<div class="pt60">Slide 4</div>
+	</section>
+	<section id="contact" class="hundred yellow">
+		<div class="pt60">Slide 5</div>
+	</section>
 
 
 

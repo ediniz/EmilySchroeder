@@ -46,15 +46,23 @@
   background-color: #ea7979;
   border-radius: 4px;
 }
+.active {
+  color: #fff !important;
+  background-color: #ea7979;
+  border-radius: 4px;
+}
 .navbar-default .navbar-nav > li + li {
   margin-left: 2px;
 }
 
 /** Custom elements **/
-body > .container {
-  padding-top: 60px;
+html,body{height:100%;}
+body > .hundred {
   padding-bottom: 60px;
+  height:100%;
+  width:100%;
 }
+
 footer {
   position: fixed;
   bottom: 0px;
@@ -65,6 +73,14 @@ footer {
   color: #fff;
 }
 nav {padding: 3px}
+
+.pt60 {padding-top: 60px;}
+
+.orange {background-color: orange;}
+.red {background-color: red;}
+.blue {background-color: blue;}
+.green {background-color: green;}
+.yellow {background-color: yellow;}
 
 /** Resume Styles **/
 .resumeheads {
