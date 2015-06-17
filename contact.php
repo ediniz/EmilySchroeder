@@ -1,9 +1,7 @@
-<?php include 'head.php';?>
-<?php include 'header.php';?>
-<div class="container">
+<div class="container pt60">
 	<div class="row text-center">
 		<div class="col-sm-12">
-			<h3>Wanna chat?</h3>
+			<h1>Wanna chat?</h1>
 			<p>Fill out this handy dandy contact form to get the party started.</p>
 			<div class="contactform center-block">
 				<form role="form">
@@ -21,9 +19,3 @@
 		</div>
 	</div>
 </div>
-<script>
-$(document).ready(function() {
-	$('#contact').addClass('active');
-});
-</script>
-<?php include 'footer.php';?>

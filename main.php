@@ -1,5 +1,10 @@
-	<section id="home" class="hundred orange">
-		<div class="pt60">Home</div>
+	<section id="home" class="hundred">
+		<div class="medium-blue-back pt60" style="height:50%;">
+			test
+		</div>
+		<div>
+			Robust. Refined. Responsive.
+		</div>
 	</section>
 	<section id="web" class="hundred red">
 		<div class="pt60">Slide 2</div>
@@ -10,14 +15,10 @@
 	<section id="resume" class="hundred green">
 		<div class="pt60">Slide 4</div>
 	</section>
-	<section id="contact" class="hundred yellow">
-		<div class="pt60">Slide 5</div>
+	<section id="contact" class="hundred">
+		<?php include 'contact.php'; ?>
+		<div class="container pt60 text-center">
+			<h1>It doesn't have to end here...</h1>
+			<p>Don't forget to check out the <a href="/blog" target="_blank">blog</a>.</p>
+		</div>
 	</section>
-
-
-
-
-			<!--<div style="height:50px; width:50px;" class="navy-back inline-block"></div>
-			<div style="height:50px; width:50px;" class="medium-blue-back inline-block"></div>
-			<div style="height:50px; width:50px;" class="pinky-back inline-block"></div>
-			<div style="height:50px; width:50px;" class="icy-blue-back inline-block"></div>-->
