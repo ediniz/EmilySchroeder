@@ -1,63 +1,12 @@
-/** Background Colors **/
-.pinky-back {
-	background-color: #ea7979;
-}
-.icy-blue-back {
-	background-color: #C8D7E3;
-}
-.black-back {
-	background-color: #000;
-}
-.navy-back {
-	background-color: #2E5387;
-}
-.medium-blue-back {
-	background-color: #98B1C4;
-}
+@import url(http://fonts.googleapis.com/css?family=Lobster|Open+Sans|Open+Sans+Condensed:300|Oswald|Pacifico);
 
-/** Colors **/
-.icy-blue {
-	color: #C8D7E3;
+/** Site-wide Custom elements **/
+html,body{
+  height:100%;
+  font-family: 'Open-sans', sans-serif;
 }
-.white {
-  color:#fff;
-}
-.navy {
-  color: #2E5387;
-}
-
-/** Custom main navigation **/
-.navbar-default .navbar-text {
-  color: #2E5387;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #2E5387;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: #fff;
-  background-color: #ea7979;
-  border-radius: 4px;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: #fff;
-  background-color: #ea7979;
-  border-radius: 4px;
-}
-.active {
-  color: #fff !important;
-  background-color: #ea7979;
-  border-radius: 4px;
-}
-.navbar-default .navbar-nav > li + li {
-  margin-left: 2px;
-}
-
-/** Custom elements **/
-html,body{height:100%;}
 body > .hundred {
+  padding-top: 35px;
   padding-bottom: 60px;
   height:100%;
   width:100%;
@@ -67,20 +16,86 @@ footer {
   position: fixed;
   bottom: 0px;
   width: 100%;
-  background-color: #2E5387;
+  background-color: #f8f8f8;
+  border-color: #e7e7e7;
   line-height: 40px;
   padding-top: 10px;
-  color: #fff;
+  color: #777;
 }
 nav {padding: 3px}
 
-.pt60 {padding-top: 60px;}
+.center {margin: auto;}
 
-.orange {background-color: orange;}
-.red {background-color: red;}
-.blue {background-color: blue;}
-.green {background-color: green;}
-.yellow {background-color: yellow;}
+.jumbotron {height:390px;}
+
+.padding20 {padding:20px;}
+
+.pt20 {padding-top: 20px;}
+
+/** Background Colors **/
+.burg-back {
+	background-color: #8f1837;
+}
+.teal-back {
+	background-color: #0d7272;
+}
+.light-back {
+	background-color: #f7f8f8;
+}
+
+/** Colors **/
+.burg {
+	color: #8f1837;
+}
+.teal {
+  color:#0d7272;
+}
+.dark {
+  color: #777;
+}
+.light {
+  color:#e7e7e7;
+}
+
+/** Fonts and text **/
+.oswald {font-family: Oswald;}
+.lobster {font-family: Lobster;}
+.pacifico {font-family: Pacifico;}
+
+.hugetext {font-size: 8.5em;}
+.hugetextplus {font-size: 9.2em; letter-spacing: 4px;}
+
+.lineheight {line-height: 1.1em;}
+
+.bold {font-weight: bold;}
+.light {font-weight: lighter;}
+
+/** Custom main navigation **/
+.navbar-default .navbar-brand {
+  font: 28px Lobster;
+  padding:5px 10px;
+}
+.navbar-default .navbar-text {
+  color: #777;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #777;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: #8f1837;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #8f1837;
+}
+.active {
+  color: #fff !important;
+  background-color: #8f1837;
+}
 
 /** Resume Styles **/
 .resumeheads {
@@ -107,7 +122,7 @@ nav {padding: 3px}
   text-decoration: none;
 }
 
-/** Blog Styles **/
+/** Blog Styles 
 
 #sidebar ul {
   margin: 0;
@@ -138,4 +153,4 @@ nav {padding: 3px}
   padding: 5px;
   font-weight: normal;
   width:100%;
-}
+}**/

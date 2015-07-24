@@ -16,8 +16,6 @@
 		<div class="pt60">Slide 4</div>
 	</section>
 	<section id="contact" class="hundred">
-		<?php include 'contact.php'; ?>
-		<div class="container pt60 text-center">
 			<h1>It doesn't have to end here...</h1>
 			<p>Don't forget to check out the <a href="/blog" target="_blank">blog</a>.</p>
 		</div>

@@ -10,7 +10,7 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>
 		  </button>
-		  <a class="navbar-brand" href="/">Logo Here</a>
+		  <a class="navbar-brand" href="#home">Logo Here</a>
 		</div>
 		<div id="navbar" class="navbar-collapse collapse">
 		  <ul class="nav navbar-nav navbar-right">

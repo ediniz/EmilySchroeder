@@ -15,4 +15,4 @@
 			<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 		<![endif]-->
 	</head>
-	<body data-spy="scroll" data-target="#scrollSpy" data-offset="60">
+	<body data-spy="scroll" data-target="#scrollSpy">
